@@ -166,7 +166,7 @@ const LandingPage = () => {
                     <h1 className=" text-4xl font-black text-[#363636] my-6
                     ">ABOUT US</h1>
 
-                    <p className=" text-xl "> tecXaro, a dynamic startup in the field of education technology, is committed to providing high-quality learning experiences in robotics and aerodynamics, with a specific emphasis on drones. Our team of passionate experts is dedicated to equipping learners of all backgrounds with valuable knowledge and practical skills. We offer hands-on courses designed to inspire innovation, promote sustainability, and foster a sense of community among our participants. Whether you're a student, educator, or an eager lifelong learner, tecXaro invites you to embark on an exciting educational journey with us as we work together to redefine the future of education in the realms of robotics and aerodynamics.</p>
+                    <p className=" text-xl "> tecXaro, a dynamic startup in the field of education technology, is committed to providing high-quality learning experiences in robotics and aerodynamics, with a specific emphasis on drones. Our team of passionate experts is dedicated to equipping learners of all backgrounds with valuable knowledge and practical skills. We offer hands-on courses designed to inspire innovation, promote sustainability, and foster a sense of community among our participants. Whether you are a student, educator, or an eager lifelong learner, tecXaro invites you to embark on an exciting educational journey with us as we work together to redefine the future of education in the realms of robotics and aerodynamics.</p>
                 </div>
 
             </div>

@@ -6,3 +6,8 @@ FONTS USED :
 4. league spartan
 
 
+ok so lets try to decide on the things we are going to do in the near future in this website
+1st : i want the orange part to pop out from the left side and 
+
+2nd : the parallax effect will happen after that
+
