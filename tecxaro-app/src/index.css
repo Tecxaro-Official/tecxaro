@@ -1,3 +1,150 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* font-family: 'League Spartan', sans-serif; */
+
+
+
+
+/* ========================================== */
+/* FONTS  */
+
+@font-face {
+  font-family: "bickubik";
+  src: url(./assets/font/bicubik.otf);
+}
+
+@font-face {
+  font-family: "mokoto";
+  src: url(./assets/font/mokoto.ttf);
+}
+
+@font-face {
+  font-family: "futura";
+  src: url(./assets/font/futuraMedium.ttf);
+}
+
+
+@font-face {
+  font-family: "futuraBold";
+  src: url(./assets/font/futuraBold.ttf);
+}
+
+
+
+
+
+
+/* ============================================= */
+/* USABLE FONT CLASSES */
+
+.font-bickubik{
+  font-family: "bickubik";
+}
+
+.font-mokoto{
+  font-family: "mokoto";
+  
+}
+
+.font-futura{
+  font-family: "futura";
+}
+
+
+.font-futuraBold{
+  font-family: "futuraBold";
+}
+
+.font-league{
+  font-family: 'League Spartan', sans-serif;
+}
+
+
+
+
+
+
+
+/* NAVBAR */
+.navbar{
+
+  position: fixed;
+
+  width: 100%;
+  max-width: 1920px;
+
+  background-color: #F7F7F7;
+  
+  height: 3rem;
+
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+  z-index: +10;
+}
+
+
+
+
+
+
+/* HERO SECTION RESPONSIVE */
+
+@media (max-width:350px) {
+
+  .heroMainTecAndAro{
+    font-size: 3rem;
+  }
+
+  .heroMainX{
+    font-size: 6rem;
+  }
+
+  .heroMainPracticalTechnicalLearning{
+    font-size: 0.7rem;
+  }
+}
+
+
+
+/* THE ABOUT US SECTION STARTS */
+#aboutUsPictures{
+  
+}
+
+.aboutUsSectionText{
+  width: 100%;
+  max-width: 37rem;
+
+  z-index: +1;
+}
+
+
+
+
+
+/* THE PARALLAX SECTION STARTS HERE */
+#mainContainerForParralax{
+
+  background-color: black;
+
+  width: 100%;
+
+
+}
+
+.parallaxSection1Text{
+  font-size: 3rem;
+  /* font-weight: 900; */
+
+  color: white;
+}
