@@ -2,10 +2,11 @@ import "../../index.css"
 
 // IMPORTING IMAGE 
 import navbarImg from "../../assets/svg/navbarLogo.svg"
+import downArrowHeroSection from "../../assets/svg/downarrow.svg"
 
 const LandingPage = () => {
     return (
-        <div className="px-[2rem] ">
+        <div className="px-[2rem] bg-[#F7F7F7]">
 
 
 
@@ -40,7 +41,10 @@ const LandingPage = () => {
 
 
             {/* HERO SECTION */}
-            <div className=" w-[100%] h-[100vh] bg-[#F7F7F7] flex flex-col justify-center items-center">
+            <div className=" w-[100%] h-[100svh] bg-[#F7F7F7] flex flex-col justify-center items-center">
+
+
+
 
 
 
@@ -58,7 +62,7 @@ const LandingPage = () => {
 
 
 
-                        <h1 className=" font-bickubik text-[#2C2C2C] text-9xl
+                        <h1 className=" font-bickubik text-[#2C2C2C] text-9xl relative left-1
                         ">X</h1>
 
 
@@ -87,9 +91,11 @@ const LandingPage = () => {
 
 
 
-                {/* THE DOWNARROW FLOATING */}
-                <div>
 
+
+                {/* THE DOWNARROW FLOATING */}
+                <div className=" absolute bottom-4">
+                    <img className=" h-[2rem]" src={downArrowHeroSection} alt="" />
                 </div>
 
             </div>
