@@ -1,12 +1,13 @@
+import LandingPage from "./pages/landingPage/landingPage"
 
 
 function App() {
-  
+
 
   return (
-   <div>
-    <h1>Hello world</h1>
-   </div>
+    <div>
+      <LandingPage />
+    </div>
   )
 }
 

@@ -1,3 +1,73 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+
+
+/* ========================================== */
+/* FONTS  */
+
+@font-face {
+  font-family: "bickubik";
+  src: url(./assets/font/bicubik.otf);
+}
+
+@font-face {
+  font-family: "mokoto";
+  src: url(./assets/font/mokoto.ttf);
+}
+
+@font-face {
+  font-family: "futura";
+  src: url(./assets/font/futur.ttf);
+}
+
+
+
+
+
+
+/* ============================================= */
+/* USABLE FONT CLASSES */
+
+.font-bickubik{
+  font-family: "bickubik";
+}
+
+.font-mokoto{
+  font-family: "mokoto";
+  
+}
+
+.font-futura{
+  font-family: "futura";
+}
+
+
+
+
+
+/* NAVBAR */
+.navbar{
+
+  position: fixed;
+
+  width: 100%;
+  max-width: 1920px;
+
+  background-color: #F7F7F7;
+  
+  height: 3rem;
+
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
