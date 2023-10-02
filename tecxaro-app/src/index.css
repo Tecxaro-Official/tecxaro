@@ -72,3 +72,20 @@
   
 }
 
+
+
+/* HERO SECTION RESPONSIVE */
+@media (max-width:350px) {
+
+  .heroMainTecAndAro{
+    font-size: 3rem;
+  }
+
+  .heroMainX{
+    font-size: 6rem;
+  }
+
+  .heroMainPracticalTechnicalLearning{
+    font-size: 0.7rem;
+  }
+}

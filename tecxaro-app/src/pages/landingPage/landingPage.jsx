@@ -57,16 +57,16 @@ const LandingPage = () => {
                     <div className="flex justify-center items-center">
 
 
-                        <h1 className=" font-mokoto text-[#FF3E1B] text-6xl
+                        <h1 className="heroMainTecAndAro font-mokoto text-[#FF3E1B] text-6xl
                         ">TEC</h1>
 
 
 
-                        <h1 className=" font-bickubik text-[#2C2C2C] text-9xl relative left-1
+                        <h1 className=" font-bickubik text-[#2C2C2C] text-9xl relative left-1 heroMainX
                         ">X</h1>
 
 
-                        <h1 className=" font-mokoto text-[#FF3E1B] text-6xl">ARO</h1>
+                        <h1 className=" font-mokoto text-[#FF3E1B] text-6xl heroMainTecAndAro">ARO</h1>
 
                     </div>
 
@@ -76,7 +76,7 @@ const LandingPage = () => {
 
 
                     {/* PRACTICAL TECHNICAL LEARNING */}
-                    <div className="flex justify-center items-center font-bickubik text-sm relative bottom-5 right-1 text-[#2C2C2C]">
+                    <div className="flex justify-center items-center font-bickubik text-sm relative bottom-5 right-1 text-[#2C2C2C] heroMainPracticalTechnicalLearning">
 
 
                         <p className=" mr-4
