@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 
+/* font-family: 'League Spartan', sans-serif; */
 
 
 
@@ -26,6 +27,12 @@
 }
 
 
+@font-face {
+  font-family: "futuraBold";
+  src: url(./assets/font/futuraBold.ttf);
+}
+
+
 
 
 
@@ -44,6 +51,15 @@
 
 .font-futura{
   font-family: "futura";
+}
+
+
+.font-futuraBold{
+  font-family: "futuraBold";
+}
+
+.font-league{
+  font-family: 'League Spartan', sans-serif;
 }
 
 
@@ -102,11 +118,33 @@
 
 /* THE ABOUT US SECTION STARTS */
 #aboutUsPictures{
-
-  width: ;
+  
 }
 
 .aboutUsSectionText{
   width: 100%;
-  max-width: 40rem;
+  max-width: 37rem;
+
+  z-index: +1;
+}
+
+
+
+
+
+/* THE PARALLAX SECTION STARTS HERE */
+#mainContainerForParralax{
+
+  background-color: black;
+
+  width: 100%;
+
+
+}
+
+.parallaxSection1Text{
+  font-size: 3rem;
+  /* font-weight: 900; */
+
+  color: white;
 }
