@@ -6,7 +6,7 @@ import downArrowHeroSection from "../../assets/svg/downarrow.svg"
 
 const LandingPage = () => {
     return (
-        <div className="px-[2rem] bg-[#F7F7F7]">
+        <div className="px-[2rem] bg-[#F7F7F7] text-[#363636]">
 
 
 
@@ -106,12 +106,44 @@ const LandingPage = () => {
 
 
 
+            {/* ================  THE ABOUT US SECTION STARTS =========== */}
+
 
 
 
 
             {/* ABOUT US SECTION */}
+            <div className=" bg-[#F7F7F7] w-[100%] h-[100rem] flex flex-col items-center">
 
+
+
+                {/* THE DIV CONTAINING PICTURES FOR THE ABOUT US SECTION */}
+
+                <div id="aboutUsPictures">
+                        
+                </div>
+
+
+
+
+
+
+
+
+
+                {/* THE DIV CONTAINING THE ABOUT US SECTION TEXT */}
+                <div className="font-futura aboutUsSectionText">
+                    <h1 className=" text-4xl font-black text-[#363636] my-4
+                    ">ABOUT US</h1>
+
+                    <p className=" text-xl "> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique nihil nulla est assumenda eveniet natus error. Laudantium cumque eum in consequatur a rem esse, libero tempora quae non nostrum molestias dolore inventore ut, ipsum consequuntur maxime incidunt, nisi voluptate deleniti.</p>
+                </div>
+
+
+
+
+
+            </div>
 
 
             {/* PARALLAX SECTION */}

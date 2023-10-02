@@ -22,7 +22,7 @@
 
 @font-face {
   font-family: "futura";
-  src: url(./assets/font/futur.ttf);
+  src: url(./assets/font/futuraMedium.ttf);
 }
 
 
@@ -50,6 +50,8 @@
 
 
 
+
+
 /* NAVBAR */
 .navbar{
 
@@ -70,11 +72,17 @@
   justify-content: center;
   align-items: center;
   
+
+  z-index: +10;
 }
 
 
 
+
+
+
 /* HERO SECTION RESPONSIVE */
+
 @media (max-width:350px) {
 
   .heroMainTecAndAro{
@@ -88,4 +96,17 @@
   .heroMainPracticalTechnicalLearning{
     font-size: 0.7rem;
   }
+}
+
+
+
+/* THE ABOUT US SECTION STARTS */
+#aboutUsPictures{
+
+  width: ;
+}
+
+.aboutUsSectionText{
+  width: 100%;
+  max-width: 40rem;
 }
