@@ -16,7 +16,7 @@ const LandingPageLargeScreens = () => {
 
 
       <div className='font-league text-7xl font-extrabold'>WORK IN
-        <span className=' 2xl:text-[#FF3E1B]'> PROGRESS . . .</span>
+        <span className=' text-[#FF3E1B]'> PROGRESS . . .</span>
       </div>
 
     </div>

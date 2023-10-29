@@ -16,34 +16,54 @@ main {
   color: white;
 }
 
-.font-league{
+.font-league {
   font-family: 'League Spartan', sans-serif;
 }
 
-.main{
+.main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
   width: 100%;
   height: 100vh;
+
+  padding: 0rem 2rem;
 
 
 }
 
-.theX{
+.theX {
   /* position: absolute; */
   margin-bottom: 6rem;
 
   width: 20rem;
-  
+
 }
 
-.theXAnimation{
+.theXAnimation {
 
   stroke-width: 2px;
   stroke: #FF3E1B;
 
+  stroke-dasharray: 75rem;
+  
   animation-name: loadingAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes loadingAnimation {
+  0% {
+    stroke-dashoffset: 75rem;
+  }
+  
+  100% {
+    
+    /* stroke-dasharray: 0rem; */
+    stroke-dashoffset: 0rem;
+  }
+
 }
