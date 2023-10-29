@@ -3,9 +3,17 @@ import LandingPageLargeScreens from './components/landingPageComponents/landingP
 
 
 export default function Home() {
+
+  // SCREEN WIDTH AND HEIGHT
+  
+
+
+
+
+
   return (
    <main>
-    <div>Hello world</div>
+    
     <LandingPageLargeScreens/>
    </main> 
   )
