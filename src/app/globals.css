@@ -2,10 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-main{
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap');
+
+/* font-family: 'League Spartan', sans-serif; */
+
+
+main {
   width: 100%;
   height: 100vh;
   background-color: black;
 
   color: white;
+}
+
+.font-league{
+  font-family: 'League Spartan', sans-serif;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  width: 100%;
+  height: 100vh;
+
+
+}
+
+.theX{
+  /* position: absolute; */
+  margin-bottom: 6rem;
+
+  width: 20rem;
+  
+}
+
+.theXAnimation{
+
+  stroke-width: 2px;
+  stroke: #FF3E1B;
+
+  animation-name: loadingAnimation;
 }
